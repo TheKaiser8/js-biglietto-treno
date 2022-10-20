@@ -25,27 +25,6 @@ if( age < 18 ) {
 }
 // 6. Stampa sulla pagina HTML il prezzo del biglietto del treno
 
-// MODO 2
-// 4. Determina il prezzo del biglietto senza sconto
-// let ticketPrice = (distance * priceForKm).toFixed(2);
-// console.log('Prezzo biglietto senza sconto:', ticketPrice, "€");
-// 5. Determina il prezzo del biglietto con sconto 20%
-// let ticketPriceDiscount20 = (ticketPrice - (ticketPrice * 0.2)).toFixed(2);
-// console.log('Prezzo biglietto sconto 20%:', ticketPriceDiscount20);
-// 6. Determina il prezzo del biglietto con sconto 40%
-// let ticketPriceDiscount40 = ticketPrice - (ticketPrice * 0.4);
-// console.log('Prezzo biglietto sconto 40%:', ticketPriceDiscount40);
-// 7. Determina il prezzo finale del biglietto in base all'età del passeggero
-// if( age < 18 ) {
-//     let ticketPriceDiscount20 = (ticketPrice - (ticketPrice * 0.2)).toFixed(2);
-//     console.log('Prezzo finale scontato 20%:', ticketPriceDiscount20, "€");
-// } else if ( age >= 65 ) {
-//     let ticketPriceDiscount40 = (ticketPrice - (ticketPrice * 0.4)).toFixed(2);
-//     console.log('Prezzo finale scontato 40%:',ticketPriceDiscount40, "€");
-// } else {
-//     console.log('Prezzo finale senza sconto:', ticketPrice, "€");
-// }
-// 8. Stampa sulla pagina HTML il prezzo del biglietto del treno
 
 
 
