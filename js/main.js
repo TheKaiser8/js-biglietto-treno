@@ -17,7 +17,7 @@ console.log('Prezzo biglietto senza sconto:', ticketPrice, "€");
 if( age < 18 ) {
     let ticketPriceDiscount20 = (ticketPrice - (ticketPrice * 0.2)).toFixed(2);
     console.log('Prezzo finale scontato 20%:', ticketPriceDiscount20, "€");
-} else if ( age > 65 ) {
+} else if ( age >= 65 ) {
     let ticketPriceDiscount40 = (ticketPrice - (ticketPrice * 0.4)).toFixed(2);
     console.log('Prezzo finale scontato 40%:',ticketPriceDiscount40, "€");
 } else {
@@ -39,7 +39,7 @@ if( age < 18 ) {
 // if( age < 18 ) {
 //     let ticketPriceDiscount20 = (ticketPrice - (ticketPrice * 0.2)).toFixed(2);
 //     console.log('Prezzo finale scontato 20%:', ticketPriceDiscount20, "€");
-// } else if ( age > 65 ) {
+// } else if ( age >= 65 ) {
 //     let ticketPriceDiscount40 = (ticketPrice - (ticketPrice * 0.4)).toFixed(2);
 //     console.log('Prezzo finale scontato 40%:',ticketPriceDiscount40, "€");
 // } else {
